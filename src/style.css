@@ -9,7 +9,8 @@ body {
 .small_button {
     width: 50px;
     height: 50px;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: Roboto;
     background-color: aqua;
     display: inline;
     margin: 0 auto;
@@ -18,13 +19,24 @@ body {
 .big_button {
     width: 100px;
     height: 50px;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: Roboto;
     background-color: aqua;
 }
 .output {
     font-size: 16px;
     width: 100%;
-    height: 90px;
-    background-color: black;
+    height: 70px;
+    background-color: white;
     margin: 0;
+    position: relative;
+}
+.outputText {
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    width: 100px; 
+    text-align:right;
+    font-size: 30px;
+    font-family: Roboto;
 }
